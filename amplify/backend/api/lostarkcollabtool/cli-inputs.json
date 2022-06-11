@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "lostarkcollabtool",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "E:\\amplifyapp\\amplify\\backend\\api\\lostarkcollabtool\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}
