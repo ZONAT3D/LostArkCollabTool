@@ -15,6 +15,10 @@ export default ({ mode }) => {
                 include: '**/*.{jsx,tsx,js,ts}',
             }),
         ],
-
+        resolve: {
+            alias: {
+              './runtimeConfig': './runtimeConfig.browser',
+            },
+        }
     })
 };
